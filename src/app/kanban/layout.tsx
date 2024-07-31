@@ -7,7 +7,7 @@ export default function LayoutKanban({
   return (
     <div className="flex">
       <SidebarMain />
-      <div className="p-4">{children}</div>
+      <div className="p-4 flex-1">{children}</div>
     </div>
   );
 }
